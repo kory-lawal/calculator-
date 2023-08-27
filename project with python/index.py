@@ -26,7 +26,7 @@ while True:
     try:
         choice = int(input("Enter choice (1/2/3/4): "))
     except ValueError:
-        print("Error: invaild input")
+        print("Error: invalid input")
         continue
 
     if choice == 5:
@@ -38,7 +38,7 @@ while True:
         y = float(input("Enter the secord number: "))
 
     except ValueError:
-        print("Error: invaild input")
+        print("Error: invalid input")
         continue
 
 
@@ -51,4 +51,4 @@ while True:
     elif choice == 4:
         print(f"The result for {x} // {y} = {divide(x, y)}")
     else:
-        print("Error: invaild input")
+        print("Error: invalid input")
